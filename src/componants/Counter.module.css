@@ -1,0 +1,55 @@
+.counter-container {
+  width: 40%;
+
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(226, 226, 226);
+  border: 2px solid purple;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+  color: rgb(85, 85, 85);
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.counter {
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.button {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(145, 0, 145);
+}
+
+.button:active {
+  background-color: rgb(110, 0, 110);
+}
