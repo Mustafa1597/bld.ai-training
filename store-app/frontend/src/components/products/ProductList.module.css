@@ -1,0 +1,11 @@
+.products {
+  width: 45%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}

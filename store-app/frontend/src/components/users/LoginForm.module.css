@@ -1,0 +1,87 @@
+.form {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border: 2px solid rgb(0, 145, 133);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.form-control label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 40%;
+  height: 40px;
+  background-color: rgb(0, 145, 133);
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px;
+  margin: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(0, 175, 161);
+}
+
+.button:active {
+  background-color: rgb(0, 109, 100);
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.error {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+}
