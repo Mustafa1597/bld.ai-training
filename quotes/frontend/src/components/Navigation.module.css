@@ -1,0 +1,44 @@
+.nav-bar {
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+
+  background-color: rgb(0, 157, 168);
+}
+
+.title {
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+.actions {
+  margin-right: 100px;
+}
+
+.link {
+  border: none;
+
+  margin: 10px;
+
+  color: rgb(253, 251, 198);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+
+  background-color: rgb(0, 157, 168);
+
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.link:active {
+  color: rgb(255, 234, 234);
+}

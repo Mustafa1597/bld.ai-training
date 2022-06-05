@@ -1,0 +1,38 @@
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(0, 183, 255);
+
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+
+  color: black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.author {
+  color: gray;
+  font-size: 14px;
+}
+
+.detail-button {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+
+  background-color: rgb(0, 106, 114);
+  color: white;
+  font-size: 16px;
+}
